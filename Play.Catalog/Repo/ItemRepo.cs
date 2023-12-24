@@ -3,16 +3,14 @@ using Play.Catalog.Entities;
 
 namespace Play.Catalog.Repo
 {
-    public class ItemRepo
+    public class ItemRepo : IItemRepo
     {
         private readonly string collectionName = "items";
         private readonly IMongoCollection<Item> dbCollection;
         private readonly FilterDefinitionBuilder<Item> filterBuilder = Builders<Item>.Filter;
 
-        public ItemRepo()
+        public ItemRepo(IMongoDatabase database)
         {
-            var mongoClient = new MongoClient("mongodb://localhost:27017");
-            var database = mongoClient.GetDatabase("Catalog");
             dbCollection = database.GetCollection<Item>(collectionName);
         }
 
