@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog", "Play.Catalog\Play.Catalog.csproj", "{42CC24D5-2F80-40E0-83AD-79B085EC8A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\Play.Common.csproj", "{8432C2DD-7FF8-40A1-B33A-FA4AE940A683}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{42CC24D5-2F80-40E0-83AD-79B085EC8A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42CC24D5-2F80-40E0-83AD-79B085EC8A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42CC24D5-2F80-40E0-83AD-79B085EC8A7B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8432C2DD-7FF8-40A1-B33A-FA4AE940A683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8432C2DD-7FF8-40A1-B33A-FA4AE940A683}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8432C2DD-7FF8-40A1-B33A-FA4AE940A683}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8432C2DD-7FF8-40A1-B33A-FA4AE940A683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
