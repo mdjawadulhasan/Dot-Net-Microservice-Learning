@@ -9,8 +9,8 @@ namespace Play.Catalog.Controllers
     [ApiController]
     public class ItemsController : ControllerBase
     {
-        private readonly IItemRepo itemRepo;
-        public ItemsController(IItemRepo itemRepo)
+        private readonly IRepository<Item> itemRepo;
+        public ItemsController(IRepository<Item> itemRepo)
         {
             this.itemRepo = itemRepo;
         }
