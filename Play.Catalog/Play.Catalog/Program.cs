@@ -1,11 +1,6 @@
-
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
-using MongoDB.Driver;
 using Play.Catalog.Entities;
-using Play.Catalog.Repo;
-using Play.Catalog.Settings;
+using Play.Common.MongoDB;
+using Play.Common.Settings;
 
 namespace Play.Catalog
 {
