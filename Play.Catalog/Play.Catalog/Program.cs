@@ -14,10 +14,6 @@ namespace Play.Catalog
 
             serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
             builder.Services.AddMongo().AddMongoRepository<Item>("items");
-            builder.Services.AddMongo().AddMongoRepository<Item>("items");
-            builder.Services.AddMongo().AddMongoRepository<Item>("items");
-            builder.Services.AddMongo().AddMongoRepository<Item>("items");
-            builder.Services.AddMongo().AddMongoRepository<Item>("items");
 
             builder.Services.AddControllers(
                 options =>
